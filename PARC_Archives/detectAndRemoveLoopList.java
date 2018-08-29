@@ -15,11 +15,10 @@ class Solution{
 			curr = curr.next;
 			if(faster==curr)
 			{
-				System.out.print("Loop at : " + fater.data);
+				System.out.print("Loop at : " + faster.data);
 				faster = null;
 			}
 		}
-
 		return head;
 	}
 }
